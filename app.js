@@ -47,7 +47,7 @@ window.addEventListener('click', highlightMenu);
 const hideMobilemenu = () => {
     const menuBars = document.querySelector('.is-active')
     if(window.innerWidth <= 768 && menuBars) {
-        menu.classList.toggle('is-active')
+        men.classList.toggle('is-active')
         menuLinks.classList.remove('active')
     }
 }

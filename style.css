@@ -563,6 +563,10 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
     font-size: 1rem;
 }
 
+.services__card button a {
+	text-decoration: none;
+}
+
 .services__card button:hover {
     cursor: pointer;
 }
